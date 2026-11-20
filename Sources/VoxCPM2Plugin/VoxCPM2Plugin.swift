@@ -249,7 +249,7 @@ let forgetAsset: @Sendable (String, ResidentEngine) async -> Void = { asset, res
 }
 
 public let voxCPM2Plugin = GaeaPluginDefinition(
-    id: "com.xocialize.gaea.voxcpm2", version: "0.1.0", minGaea: "1.0.0", team: "CFZS6RXUCP",
+    id: "com.xocialize.gaea.voxcpm2", version: "0.1.1", minGaea: "1.0.0", team: "CFZS6RXUCP",
     repo: "https://github.com/xocialize-code/gaea-plugin-voxcpm2", title: "VoxCPM2",
     summary: "VoxCPM2 (OpenBMB): 48 kHz speech in 30 languages in a voice of its own, cloned from a clip, or designed from a description (MES audio.speak and audio.design_voice).",
     license: "Apache-2.0", executable: "gaea-voxcpm2-worker",
